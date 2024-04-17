@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #1b1b1b;
+    background-image: url("../images/skybg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5%;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+#videoPlayer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
