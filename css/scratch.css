@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     color: #1b1b1b;
-    background-image: url("../images/skybg.png");
+    background-image: url("../images/skypt2.png");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 5%;
@@ -13,12 +13,12 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: #1b1b1b;
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: #1b1b1b;
     text-decoration: none;
 }
 #videoPlayer {
@@ -26,5 +26,3 @@ nav a {
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-}
